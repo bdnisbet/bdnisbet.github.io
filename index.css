@@ -6,49 +6,64 @@ there are definitely some properties you should add!*/
       height: 100%;
     }
     body {
-       height: 100%; color: 000000
-     }
+       width: 0 auto;
+       height: 100%;
+       margin: 0;
+       font-family:sans-serif;
+    }
 
     header {
-        background-color: aqua;
-        padding:25px;
-        font-size: ;
+        background-color: #A9A9A9;
+        padding: 25px;
         display: block;
-        width: 630px;
-        border: none;
-      }
-
-    nav {
-        line-height:50px;
-        background-color:;
-        width:175px;
-        display: inline-block;
-        vertical-align: top;
+        color: white;
+        height: 135px;
     }
+
     nav ul {
-      list-style-type: none;
+        padding: 0;
+        float: left;
+        list-style-type: none;
+
+    }
+    nav li {
+        float: left;
+        font-size: 20px;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
     }
     a {
         color: ;
+        text-decoration: none;
+        color: white;
     }
     section {
-        width: 516px;
+        width: 100%;
         display: inline-block;
+        float: left;
+        margin: 40px;
     }
     aside {
-      width: 125px;
-      display: inline-block;
-      vertical-align: top;
-      background-color:;
-      font-size: ;
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
     }
     aside ul {
         list-style-type: none;
     }
     footer {
-        width: 790px;
+        width: 0 auto;
+        height: 0 auto;
         background-color:;
-        text-align:;
-        padding:5px;
+        color:;
+        clear: both;
         display: block;
+        margin: 30px;
+        font-size: 11px;
     }
